@@ -29,4 +29,4 @@ jobs:
       run: npm install -g surge
 
     - name: Run Surge
-      run: surge ./build bootcamp.surge.sh --token $((secrets-SURGE_TOKEN))
+      run: surge ./build techChurail24.surge.sh --token $((secrets-SURGE_TOKEN))
