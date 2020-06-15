@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    
+    background-image:url(download.jpg);
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color:#fff;
+    text-transform: uppercase;
+    text-shadow: 0rem 0rem 1rem lightblue;
+    text-align: center;
+    padding-top: 10mm;
+    padding-bottom: 10mm;
+
+}
+.images{
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+.robo{
+    position:absolute;
+     top: 0px; 
+    left: 250px;
+     z-index: 1
+}
+.earth{
+    position:absolute;
+     top: 90px;
+     left: 270px; 
+     z-index: 3;
+     opacity: 1;
+     
+}
+
